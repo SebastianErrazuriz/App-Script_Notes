@@ -10,7 +10,7 @@ function onOpen() {
     // we aquire the object representing the user interfaceof the active spreadsheets
     var ui = SpreadsheetApp.getUi();
   
-    // crate and add a menu with names of our choosing
+    // create and add a menu with names of our choosing
     ui.createMenu('Example menu')
         // create a connection between the menu item label and the function that we want to run 
         .addItem('name of the menu', 'myFunction_01')
